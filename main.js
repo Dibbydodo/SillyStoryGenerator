@@ -33,8 +33,8 @@ function result() {
   if(document.getElementById("uk").checked) {
     const weight = Math.round(21.4286) + " stones";
     const temperature =  Math.round(34.4444) + " centigrade";
-    newStory = newStory.replace("94 fahrenheit", weight);
-    newStory = newStory.replace("300 pounds", temperature);
+    newStory = newStory.replace("94 fahrenheit", temperature);
+    newStory = newStory.replace("300 pounds", weight);
   }
 
   story.textContent = newStory;
